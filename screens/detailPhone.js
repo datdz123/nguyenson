@@ -66,12 +66,7 @@ class AddFruit extends Component {
                         <Text style={styles.desc}>{data.description}</Text>
                     </View>
                     <View style={styles.footer}>
-                        <View style={styles.loveContain}>
-                            <Image source={require('../assets/love.png')}
-                                style={styles.love}
-                                resizeMode={'contain'}
-                            />
-                        </View>
+                    
 
                         <View style={styles.btnAddtocart}>
                             <Text style={styles.addCart}>Add to cart</Text>
@@ -236,8 +231,8 @@ const styles = StyleSheet.create({
     btnAddtocart: {
         height: 65,
         flex: 1,
-        marginLeft: 18,
-        backgroundColor: '#FFCC3F',
+        
+        backgroundColor: '#FFCCC',
         justifyContent: 'center',
         borderRadius: 16
     },

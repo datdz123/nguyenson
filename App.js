@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 
 import home from './screens/HomeScreen';
-import AddFruit from './screens/addFruit';
+import AddFruit from './screens/detailPhone';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 
@@ -16,7 +16,7 @@ export default function App() {
         initialRouteName='Login'
       >
        
-                <Stack.Screen name={'AddFruit'} component={AddFruit}    options={{
+                <Stack.Screen name={'Detail'} component={AddFruit}    options={{
             headerShown: false
           }} />
            <Stack.Screen
