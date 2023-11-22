@@ -19,7 +19,7 @@ class Home extends Component {
         </View>
         <ScrollView style={{ flex: 1 }}>
           <View style={styles.containerSearch}>
-            <Text style={styles.headText}>Shop bán điện thoại</Text>
+       
             <View style={styles.boxSearch}>
               <Icon name={'ios-search'} size={28} color={primaryColor} />
               <Text style={styles.txtSearch}>Tìm kiếm</Text>
